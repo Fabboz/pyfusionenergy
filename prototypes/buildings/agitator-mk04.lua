@@ -32,9 +32,9 @@ RECIPE {
     enabled = false,
     ingredients = {
                 {'agitator-mk03', 1},
-                {'super-steel', 30},
-                {'low-density-structure', 15},
-                {'nbfe-alloy', 20}
+                --{'super-steel', 30},
+                --{'low-density-structure', 15},
+                --{'nbfe-alloy', 20}
             },
     results = {
         {"agitator-mk04", 1}
@@ -99,7 +99,7 @@ ENTITY {
 			line_length = 10,
 			animation_speed = 1,
 			shift = {0.1, -0.0},
-			tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
+			tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0},
 			}
 		}
     },

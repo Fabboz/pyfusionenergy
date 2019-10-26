@@ -32,8 +32,8 @@ RECIPE {
     enabled = false,
     ingredients = {
                 {"agitator-mk01", 1},
-                {'duralumin', 15},
-                {'lead-plate', 10},
+                --{'duralumin', 15},
+                --{'lead-plate', 10},
                 {'nexelit-plate', 15},
                 {'advanced-circuit', 10}
             },
@@ -100,7 +100,7 @@ ENTITY {
 			line_length = 10,
 			animation_speed = 1,
 			shift = {0.1, -0.0},
-			tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+			tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0},
 			}
 		}
     },

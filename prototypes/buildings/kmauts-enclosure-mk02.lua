@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     ingredients = {
                 {"kmauts-enclosure-mk01", 1},
-                {'duralumin', 15},
-                {'lead-plate', 10},
+                --{'duralumin', 15},
+                --{'lead-plate', 10},
                 {'nexelit-plate', 15},
                 {'advanced-circuit', 10}
             },
@@ -50,7 +50,7 @@ ENTITY {
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = -25,
+        emissions_per_minute = 3,
     },
     energy_usage = "700kW",
     ingredient_count = 5,

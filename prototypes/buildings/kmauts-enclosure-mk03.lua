@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     ingredients = {
                 {'kmauts-enclosure-mk02', 1},
-                {'titanium-plate', 20},
-                {'stainless-steel', 20},
-                {'tin-plate', 20},
+                --{'titanium-plate', 20},
+                --{'stainless-steel', 20},
+                --{'tin-plate', 20},
                 {'processing-unit', 10}
             },
     results = {
@@ -50,7 +50,7 @@ ENTITY {
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = -25,
+        emissions_per_minute = 3,
     },
     energy_usage = "1200kW",
     ingredient_count = 5,

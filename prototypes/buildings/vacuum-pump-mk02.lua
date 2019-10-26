@@ -10,18 +10,19 @@ local pipes = {
 RECIPE {
     type = "recipe",
     name = "vacuum-pump-mk02",
-    energy_required = 5,
+    energy_required = 1,
     enabled = false,
     ingredients = {
-        {"iron-plate", 20},
+        {"vacuum-pump-mk01", 1},
         {"steel-plate", 10},
+        {"electronic-circuit", 10},
         {"iron-gear-wheel", 10},
         {"pipe", 10}
     },
     results = {
         {"vacuum-pump-mk02", 1}
     }
-}:add_unlock("coal-processing-1")
+}
 
 ITEM {
     type = "item",
@@ -80,6 +81,7 @@ ENTITY {
         frame_count = 20,
         line_length = 5,
         animation_speed = 1,
+        tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0},
         shift = {0.187, -0.656}
 		}
 		}
